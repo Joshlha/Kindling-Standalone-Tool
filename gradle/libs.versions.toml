@@ -1,0 +1,11 @@
+[versions]
+java = "17"
+kotlin = "1.8.0"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+[libraries]
+kindling = { group = "io.github.paulgriffith", name = "kindling", version = "0.6.1-SNAPSHOT" }
+
+[bundles]
